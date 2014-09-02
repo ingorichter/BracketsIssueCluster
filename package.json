@@ -1,0 +1,26 @@
+{
+  "name": "BracketsIssueCluster",
+  "version": "0.0.1",
+  "description": "Generate Issue Cluster for Brackets",
+  "main": "./node_modules/coffee-script/bin/coffee downloadIssues.coffee -n | ./node_modules/coffee-script/bin/coffee formatBracketsIssues.coffee -n - > ./brackets-issues.md",
+  "keywords": [
+    "github",
+    "data",
+    "milestone",
+    "brackets"
+  ],
+  "author": {
+    "name": "ingo Richter",
+    "email": "ingo.richter+gh@gmail.com",
+    "url": "http://ingo-richter.name"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "lodash": "^2.4.1",
+    "request": "^2.40.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
